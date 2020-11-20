@@ -1,12 +1,16 @@
+.wrap{
+  display: flex;
+}
 .emoji{
+  margin-left: 100px;
+  margin-top: 10%;
   width: 160px;
   height: 160px;
   display: block;
   position: relative;
   background: url('emoji1.png');
-
 }
-  .emoji-e{
+.emoji-e{
   width: 160px;
   height: 160px;
   display: block;

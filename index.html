@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>emoji</title>
+    <style media="screen">
+      .emoji{
+        width: 160px;
+        height: 160px;
+        display: block;
+        position: relative;
+        background: url('emoji1.png');
+
+      }
+        .emoji-e{
+        width: 160px;
+        height: 160px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url('emoji1.png');
+        background-position: -480px top;
+        animation: ey 1s steps(1) alternate infinite;
+        animation-play-state: paused;
+      }
+      @keyframes ey {
+        0%{background-position: -480px top;}
+        10%{background-position: -640px top;}
+        20%{background-position: -800px top;}
+        30%{background-position: -960px top;}
+      }
+      .emoji-h{
+        width: 160px;
+        height: 160px;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: url('emoji1.png');
+        background-position: -160px top;
+        animation: hand 2s steps(1) infinite;
+      }
+      @keyframes hand {
+        0%{background-position: -160px top;}
+        25%{background-position: -320px top;}
+      }
+      .b{
+        background: url('emoji2.png')
+      }
+      .emoji-eb{
+      width: 160px;
+      height: 160px;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: url('emoji2.png');
+      background-position: -480px top;
+      animation: eyb 2s steps(1) infinite;
+    }
+    @keyframes eyb {
+      0%{background-position: -320px top;}
+      25%{background-position: -160px top;}
+    }
+    .emoji-hb{
+      width: 160px;
+      height: 160px;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: url('emoji2.png');
+      background-position: -160px top;
+      animation: handb 2s steps(1) infinite;
+    }
+    @keyframes handb {
+      0% {background-position: -640px top;}
+      50% {background-position: -800px top;}
+    }
+    .c{
+      background: url('emoji3.png')
+    }
+    .emoji-hc{
+      width: 160px;
+      height: 160px;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: url('emoji3.png');
+      background-position: -160px top;
+      animation: handc .7s steps(1) infinite;
+    }
+    @keyframes handc {
+      0% {background-position: -480px top;}
+      25% {background-position: -640px top;}
+    }
+    .emoji-ec{
+    width: 160px;
+    height: 160px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('emoji3.png');
+    background-position: -480px top;
+    animation: eyc .7s steps(1) infinite;
+    }
+    @keyframes eyc {
+    0%{background-position: -160px top;}
+    25%{background-position: -320px top;}
+    }
+    .d{
+      background: url('emoji4.png')
+    }
+    .emoji-hd{
+      width: 160px;
+      height: 160px;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background: url('emoji4.png');
+      background-position: -160px top;
+      animation: handd 3s steps(1) alternate infinite;
+    }
+    @keyframes handd {
+      0% {background-position: -640px top;}
+      25% {background-position: -800px top;}
+      50% {background-position: -960px top;}
+    }
+    .emoji-ed{
+    width: 160px;
+    height: 160px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('emoji4.png');
+    background-position: -480px top;
+    animation: eyd 3s steps(1) alternate infinite;
+    }
+    @keyframes eyd {
+    0%{background-position: -160px top;}
+    25%{background-position: -320px top;}
+    50% {background-position: -480px top;}
+    }
+    </style>
+  </head>
+  <body>
+    <div class="emoji">
+      <div class="emoji-e"></div>
+      <div class="emoji-h"></div>
+    </div>
+    <div class="emoji b">
+      <div class="emoji-eb"></div>
+      <div class="emoji-hb"></div>
+    </div>
+    <div class="emoji c">
+      <div class="emoji-ec"></div>
+      <div class="emoji-hc"></div>
+    </div>
+    <div class="emoji d">
+      <div class="emoji-ed"></div>
+      <div class="emoji-hd"></div>
+    </div>
+  </body>
+</html>
